@@ -83,7 +83,23 @@ namespace OOP05
             //Console.WriteLine(Maths.Add(5, 2)); 
             #endregion
 
-
+            #region Third Project
+            Duration duration = new Duration(666);
+            Duration D1 = new Duration(1, 2, 6);
+            Duration D2 = new Duration(8, 2, 6);
+            Duration D3;
+            D3 = D1 + D2;
+            D3 = D1 + 7800;
+            D3 = 666 + D3;
+            D3 = ++D1;
+            D3 = --D2;
+            D1 = D1 - D2;
+            if (D1 > D2) ;
+            if (D1 <= D2) ;
+            if (D1) ;
+            DateTime Obj = (DateTime)D1;
+            Console.WriteLine(Obj); 
+            #endregion
 
 
 
