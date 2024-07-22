@@ -98,11 +98,9 @@ namespace OOP05
             if (D1 <= D2) ;
             if (D1) ;
             DateTime Obj = (DateTime)D1;
-            Console.WriteLine(Obj); 
+            Console.WriteLine(Obj);
             #endregion
-
-
-
+            
         }
     }
 }
